@@ -61,7 +61,7 @@ In order to establish the communication, we used nrf24l01 radio modules both in 
 
 ### Vehicle Simulator  
 As the demonstration has planned to do with a prototype of a junction which intersects two roads, other junctions will be demonstrated using the simulator software. Using a camera fixed from the top of the prototype, the video stream is taken to the simulator for the convenience of observing the behavior of the algorithm.  
-[Simulator](data/videos/Vehicle_Simulator_So_Far.mp4)  
+[Simulator](data/Vehicle_Simulator_So_Far.mp4)  
 We started developing this software from scratch and we were able to implement the following feature in it.  
 - Add vehicle defining a custom path using GUI
 - Stepwise simulation
