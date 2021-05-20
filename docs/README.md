@@ -3,20 +3,20 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and title
-repository-name: eYY-3yp-project-template
-title:
+repository-name: e15-3yp-Intelligent-Road-Traffic-Control-System
+title: Intelligent Road Traffic Control System
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
+# Intelligent Road Traffic Control System
 
 ---
 
 ## Team
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
--  eNumber, Name, [email](mailto:name@email.com)
+-  E/15/280, PREMATHILAKA M.P.U., [pubuduudara7@gmail.com](mailto:pubuduudara7@gmail.com)
+-  E/15/316, Samarasinghe U.G.S.B., [e15316@eng.pdn.ac.lk](mailto:e15316@eng.pdn.ac.lk)
+-  E/15/123, HERATH H.M.M.E.W.L., [wisheslakshan@gmail.com](mailto:wisheslakshan@gmail.com)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -64,10 +64,10 @@ What was achieved, future developments, commercialization plans
 
 ## Links
 
-- [Project Repository](https://github.com/cepdnaclk/{{ page.repository-name }}){:target="_blank"}
-- [Project Page](https://cepdnaclk.github.io/{{ page.repository-name}}){:target="_blank"}
-- [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
-- [University of Peradeniya](https://eng.pdn.ac.lk/)
+- <a href = "https://github.com/cepdnaclk/e15-3yp-Intelligent-Road-Traffic-Control-System" target = "_blank"> Project Repository </a>
+- <a href = "https://cepdnaclk.github.io/e15-3yp-Intelligent-Road-Traffic-Control-System/" target = "_blank">Project Page</a>
+- <a href = "http://www.ce.pdn.ac.lk/" target = "_blank">Department of Computer Engineering</a>
+- <a href = "https://eng.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
 
 
 [//]: # (Please refer this to learn more about Markdown syntax)
