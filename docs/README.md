@@ -31,16 +31,14 @@ title: Intelligent Road Traffic Control System
 
 ## Introduction
 
-Description of the real world problem and solution, impact
-
-This is a sample image, to show how to add images to your page. To learn more options, please refer [this](https://projects.ce.pdn.ac.lk/docs/faq/how-to-add-an-image/)
-
-![Sample Image](./images/sample.png)
+Vehicle travel across the world is increasing, especially in larger urban areas. It is a serious problem in traffic congestions in many major cities around the world and in these cities, it has become a nightmare for travelers. Since Traditional systems have implemented to follow a preset time schedule, they do not control variable flows coming near junctions.
+There is a goal of customizing traffic flow vehicles in a junction. As the number of roads increases steadily, and the resources provided by the current infrastructure are limited, intelligent control of traffic in the future will become a very important issue. Therefore, to better accommodation of this increasing demand, traffic control algorithms need to be simulated and optimized.
 
 
 ## Solution Architecture
 
-High level diagram + description
+#### Our Approach:  
+![Image](data/images/)
 
 ## Hardware and Software Designs
 
