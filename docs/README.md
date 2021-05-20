@@ -31,7 +31,7 @@ title: Intelligent Road Traffic Control System
 Vehicle travel across the world is increasing, especially in larger urban areas. It is a serious problem in traffic congestions in many major cities around the world and in these cities, it has become a nightmare for travelers. Since Traditional systems have implemented to follow a preset time schedule, they do not control variable flows coming near junctions.
 There is a goal of customizing traffic flow vehicles in a junction. As the number of roads increases steadily, and the resources provided by the current infrastructure are limited, intelligent control of traffic in the future will become a very important issue. Therefore, to better accommodation of this increasing demand, traffic control algorithms need to be simulated and optimized.  
 #### “One study done in Boston has proved the timings of 60 intersections in one district of the city could save $1.2 million per year”  
-![Image](data/images/)  
+![Image](data/images/yck.jpg)  
 
 [Intro Video](https://youtu.be/y0rYvnbv9V0)
 
@@ -39,8 +39,8 @@ There is a goal of customizing traffic flow vehicles in a junction. As the numbe
 ## Solution Architecture
 
 #### Our Approach:  
-![Image](data/images/)  
-![Data Flow](data/images/)
+![Image](data/images/Picture1.png)  
+![Data Flow](data/images/Picture2.png)
 
 ## Hardware and Software Designs
 
@@ -53,7 +53,7 @@ There is a goal of customizing traffic flow vehicles in a junction. As the numbe
 In our system, the relay node is the ESP32 board. Arduino Uno board works as the microcontroller for the sensor node. We needed to build up a communication system between the sensor node and relay nodes in order to send real-time vehicle count taken by sensor nodes. There are 4 sensor nodes per junction in the prototype.  
 #### Overview  
 
-![Image](data/images/) 
+![Image](data/images/9.png) 
 
 In order to establish the communication, we used nrf24l01 radio modules both in the sensor node and relay nodes. We tried to implement a protocol for our system using RF as the media and it is succeded. In this protocol relay node uses different pipes to communicate with each of the sensor nodes. Through this implementation, we could overcome the broadcasting issue and we could establish one to one communication.  
 
@@ -61,7 +61,7 @@ In order to establish the communication, we used nrf24l01 radio modules both in 
 
 ### Vehicle Simulator  
 As the demonstration has planned to do with a prototype of a junction which intersects two roads, other junctions will be demonstrated using the simulator software. Using a camera fixed from the top of the prototype, the video stream is taken to the simulator for the convenience of observing the behavior of the algorithm.  
-[Simulator]()  
+[Simulator](data/videos/Vehicle_Simulator_So_Far.mp4)  
 We started developing this software from scratch and we were able to implement the following feature in it.  
 - Add vehicle defining a custom path using GUI
 - Stepwise simulation
@@ -99,10 +99,10 @@ We implemented the above-mentioned functionality and tested it. We measured the 
 
 Also, we sent requests from the Relay node with very fewer time delays between two requests, to check whether the sensor node has time to respond to the request and go back to counting vehicles. We set the delay between requests to 10ms and verified that the sensor node can even handle requests at the amount of requesting frequency.  
 
-![Radio Communication](data/images/)
+![Radio Communication](data/images/Capture.JPG)
 
 ### Complete Network Diagram & Protocols  
-![Images](data/images/)  
+![Images](data/images/week1.png)  
 
 #### Communication between the Relay node and the Server
 
@@ -120,17 +120,17 @@ Any host on the same network can access to the system website using the raspberr
 
 ### Prototype Developments  
 #### Sensor node module  
-![Sensor node module](data/images/)
+![Sensor node module](data/images/IMG_20191011_141430.jpg)
 #### Relay Node module  
 This module is the one that keeps polling the Sensor node modules in a separate thread in it. It will send a request to a Sensor node. That request message will be received by the Sensor node and it produces an interrupt from the Sensor node’s NRF module using its IRQ pin. The Relay Node waits for the replay and stores the replay in it.
 
 The other role of the Relay node is to keep communication with the Server.  
 
-![Relay Node module](data/images/)  
+![Relay Node module](data/images/IMG_20191126_164105_1.jpg)  
 
 #### Color lights arrangement  
-![Color lights arrangement](data/images/)  
-![4way Junction](data/images/)
+![Color lights arrangement](data/images/3.png)  
+![4way Junction](data/images/20191011_161706.jpg)
 
 ### Website of the project
  
@@ -143,9 +143,9 @@ Optimizing the current traffic controlling system is a project that can be under
 Usability, or User Experience, is the art of making your website simple, user-friendly and easy to use. Understanding the customer’s online behavior gives you insight into what works and what doesn't.  
 
 Homepage  
-![Image](data/images/)  
+![Image](data/images/12.png)  
 Login window  
-![Image](data/images/)  
+![Image](data/images/23.png)  
 On this website, the responsiveness is considered
 
 #### Database
@@ -153,15 +153,15 @@ On this website, the responsiveness is considered
 As of now, we have implemented a database that includes 7 tabulations. All the details are provided below.  
 
 ##### Junction1  
-![Image](data/images/)  
+![Image](data/images/5.png)  
 There are 3 more junctions which have the same table structure. From above table, the vehicle count at the update time can be obtained. laneId is the primary key. This table is filled by the relay node of the junction.  
 
 ##### Feedback table  
-![Image](data/images/)  
+![Image](data/images/6.png)  
 Above table can be used to obtain the user’s feedback and their suggestions about the service and also the websites. ID is the primary key of the table.  
 
 ##### User_Accounts  
-![Image](data/images/)  
+![Image](data/images/7.png)  
 Above table is reserved for the administrators. The purpose of building up this table is to reserve space for the people who update the algorithm that runs at the back-end of the project.  
 
 #### MQTT clients and broker full system
@@ -174,7 +174,7 @@ MQTT is a lightweight publish/subscribe messaging protocol designed for M2M (mac
 
 The first concept is the publish and subscribe system. In a publish and subscribe system, a device can publish a message on a topic, or it can be subscribed to a particular topic to receive messages  
 
-![Image](data/images/)  
+![Image](data/images/Selection_011.png)  
 
 ##### MQTT Topic
 
@@ -196,8 +196,8 @@ In the project we have used  Mosquitto broker which is installed on the raspberr
 ## Links
 
 ### Documents  
-- [Project Report](data/documents/)  
-- [Project Proposal](data/documents/)
+- [Project Report](data/documents/ProjectMilestone2.pdf)  
+- [Project Proposal](data/documents/ProjectProposalRevisionworkshop.pdf)
 
 ### Other Links
 
