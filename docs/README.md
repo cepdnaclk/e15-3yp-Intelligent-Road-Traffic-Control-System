@@ -15,7 +15,7 @@ title: Intelligent Road Traffic Control System
 
 ## Team
 -  E/15/280, PREMATHILAKA M.P.U., [pubuduudara7@gmail.com](mailto:pubuduudara7@gmail.com)
--  E/15/316, Samarasinghe U.G.S.B., [e15316@eng.pdn.ac.lk](mailto:e15316@eng.pdn.ac.lk)
+-  E/15/316, Samarasinghe U.G.S.B., [imsuneth@gmail.com](mailto:imsuneth@gmail.com)
 -  E/15/123, HERATH H.M.M.E.W.L., [wisheslakshan@gmail.com](mailto:wisheslakshan@gmail.com)
 
 ## Table of Contents

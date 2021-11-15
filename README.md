@@ -15,7 +15,7 @@ title: Intelligent Road Traffic Control System
 
 ## Team
 -  E/15/280, PREMATHILAKA M.P.U., [pubuduudara7@gmail.com](mailto:pubuduudara7@gmail.com)
--  E/15/316, Samarasinghe U.G.S.B., [e15316@eng.pdn.ac.lk](mailto:e15316@eng.pdn.ac.lk)
+-  E/15/316, Samarasinghe U.G.S.B., [imsuneth@gmail.com](mailto:imsuneth@gmail.com)
 -  E/15/123, HERATH H.M.M.E.W.L., [wisheslakshan@gmail.com](mailto:wisheslakshan@gmail.com)
 
 ## Table of Contents
@@ -28,6 +28,7 @@ title: Intelligent Road Traffic Control System
 
 Vehicle travel across the world is increasing, especially in larger urban areas. It is a serious problem in traffic congestions in many major cities around the world and in these cities, it has become a nightmare for travelers. Since Traditional systems have implemented to follow a preset time schedule, they do not control variable flows coming near junctions.
 There is a goal of customizing traffic flow vehicles in a junction. As the number of roads increases steadily, and the resources provided by the current infrastructure are limited, intelligent control of traffic in the future will become a very important issue. Therefore, to better accommodation of this increasing demand, traffic control algorithms need to be simulated and optimized.  
+
 #### “One study done in Boston has proved the timings of 60 intersections in one district of the city could save $1.2 million per year”  
 ![Image](docs/data/images/yck.jpg)  
 
